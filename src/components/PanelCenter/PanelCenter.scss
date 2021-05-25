@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+
+.center-panel {
+    margin-top: 3.9rem !important;
+    margin-bottom: 3.9rem !important;
+    font-family: "Lora", serif;
+}
+.row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+.card {
+    margin-top: 0.5rem !important;
+    border-radius: 10px;
+    background-color: whitesmoke !important;
+
+    .card-body {
+        width: 100%;
+        height: auto !important;
+        overflow-x: hidden;
+        .card-text {
+            width: 100%;
+        }
+        .card-text img {
+            width: 100% !important;
+            height: 400px;
+            object-fit: contain;
+        }
+    }
+}
+
+.card-header {
+    position: relative !important;
+    display: flex !important;
+    justify-content: space-between !important;
+
+    img {
+        position: absolute;
+        width: 2rem;
+    }
+    .author-name {
+        margin-left: 8%;
+        font-size: 1.1rem;
+    }
+}
+
+.ck-content .image img {
+    max-width: none !important;
+    height: auto;
+    width: 300px;
+    height: auto;
+}
+
+.media-list {
+    padding: 15px;
+    background: #eeeeee;
+    color: #5b5b5b;
+    .media-heading {
+        font-size: 1.2rem;
+    }
+}
+
+.media-list .media {
+    padding: 5px 20px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.media-list .media .media-object {
+    width: 50px;
+    margin-right: 1rem;
+}
+
+a {
+    font-family: "Roboto Mono", monospace;
+    color: black;
+}

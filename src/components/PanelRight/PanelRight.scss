@@ -1,0 +1,35 @@
+.right-panel {
+    margin-top: 3.9rem !important;
+    margin-bottom: 3.9rem !important;
+    position: relative;
+
+    font-family: "Roboto Mono", monospace;
+}
+
+.list-group {
+    .title-list-group {
+        font-family: "Roboto Mono", monospace;
+        font-size: 1.3rem;
+    }
+    .list-group-item {
+        right: 10px;
+    }
+}
+
+.my-license {
+    color: black;
+}
+
+.advertisement {
+    position: fixed;
+    top: 45%;
+    left: 80%;
+}
+
+.discussion {
+    background: none;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0.2rem !important;
+    font-family: "Roboto", sans-serif !important;
+}

@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&family=Roboto+Mono:wght@600&display=swap");
+
+.App {
+  background-color: #f0f2f5;
+  min-height: 100vh !important;
+  width: 100%;
+}
+
+.main-body {
+  top: 3.9rem !important;
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+.parent-required-login {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.required-login {
+  width: 50%;
+  height: 50%;
+}

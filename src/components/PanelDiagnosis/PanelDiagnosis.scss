@@ -1,0 +1,137 @@
+.diagnosis-panel {
+    font-family: "Roboto", sans-serif !important;
+    margin-top: 3.5rem !important;
+    margin-bottom: 3.9rem !important;
+}
+
+.form-control {
+    height: 40px;
+    box-shadow: none;
+    color: #969fa4;
+}
+.form-control:focus {
+    border-color: #5cb85c;
+}
+.form-control,
+.btn {
+    border-radius: 3px;
+}
+
+.diagnosis-form {
+    border-radius: 15px;
+    width: 100%;
+    top: 0;
+    margin: 0 auto;
+    padding: 30px 0;
+    font-size: 15px;
+}
+.diagnosis-form h2 {
+    color: #636363;
+    margin: 0 100px 20px;
+    position: relative;
+    text-align: center;
+}
+.diagnosis-form h2:before,
+.diagnosis-form h2:after {
+    content: "";
+    height: 2px;
+    width: 30%;
+    background: #d4d4d4;
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+}
+.diagnosis-form h2:before {
+    left: 0;
+}
+.diagnosis-form h2:after {
+    right: 0;
+}
+.diagnosis-form .hint-text {
+    color: #999;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.diagnosis-form form {
+    color: #999;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    background: #f2f3f7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+.diagnosis-form .form-group {
+    margin-bottom: 20px;
+}
+.diagnosis-form input[type="checkbox"] {
+    margin-top: 3px;
+}
+.diagnosis-form .btn {
+    font-size: 16px;
+    font-weight: bold;
+    min-width: 140px;
+    outline: none !important;
+}
+.diagnosis-form .row div:first-child {
+    padding-right: 10px;
+}
+.diagnosis-form .row div:last-child {
+    padding-left: 10px;
+}
+.diagnosis-form a {
+    color: #fff;
+    text-decoration: underline;
+}
+.diagnosis-form a:hover {
+    text-decoration: none;
+}
+.diagnosis-form form a {
+    color: #5cb85c;
+    text-decoration: none;
+}
+.diagnosis-form form a:hover {
+    text-decoration: underline;
+}
+
+.my-toast {
+    z-index: 100000000 !important;
+    .col-form-label {
+        font-size: 1rem;
+    }
+}
+
+.my-custom-scrollbar {
+    position: relative;
+    height: 400px;
+    overflow: auto;
+}
+.table-wrapper-scroll-y {
+    display: block;
+}
+.Toastify__toast-container--top-center {
+    width: 1000px !important;
+    .Toastify__toast-body {
+        width: 100% !important;
+    }
+}
+
+@keyframes activated-tab {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.25);
+    }
+}
+
+.btn-warning:not(:disabled):not(.disabled).active:focus,
+.btn-warning:not(:disabled):not(.disabled):active:focus,
+.show > .btn-warning.dropdown-toggle:focus {
+    animation: activated-tab 2s ease forwards;
+}
+
+.btn-info:not(:disabled):not(.disabled).active:focus,
+.btn-info:not(:disabled):not(.disabled):active:focus,
+.show > .btn-info.dropdown-toggle:focus {
+    animation: activated-tab 2s ease forwards;
+}
