@@ -17,9 +17,11 @@
     "bootstrap": "^4.6.0",
     "classnames": "^2.2.6",
     "dotenv": "^8.2.0",
+    "express-favicon": "^2.0.1",
     "jquery": "^3.6.0",
     "js-cookie": "^2.2.1",
     "node-sass": "^5.0.0",
+    "path": "^0.12.7",
     "query-string": "^4.3.4",
     "react": "^17.0.1",
     "react-cookie": "^4.0.3",
@@ -29,7 +31,7 @@
     "react-scripts": "4.0.3",
     "react-toastify": "^7.0.3",
     "reactstrap": "^8.9.0",
-    "urllib": "^2.37.0",
+    "urllib": "^2.37.1",
     "web-vitals": "^1.1.0"
   },
   "scripts": {
